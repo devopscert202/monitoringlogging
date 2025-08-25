@@ -4,7 +4,6 @@ filebeat.inputs:
     paths:
       - /hostfs/var/log/syslog
       - /hostfs/var/log/auth.log
-      - /hostfs/var/log/messages
     fields:
       source_type: system
     fields_under_root: true
